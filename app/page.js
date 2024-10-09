@@ -4,7 +4,7 @@ import { useState } from 'react';
 import Register from './components/Register';
 import Login from './components/Login';
 import Feed from './components/Feed';
-import styles from './styles/Home.module.css'; // Import your styles here
+import styles from './styles/Home.module.css';
 
 export default function Home() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
