@@ -1,0 +1,32 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center; /* Center align text */
+  }
+  
+  .formContainer {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .toggleText {
+    margin-top: 15px; /* Add space between form and toggle text */
+    font-size: 16px;
+  }
+  
+  .toggleButton {
+    background: none;
+    color: #0070f3;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline; /* Underline for button appearance */
+  }
+  
+  .toggleButton:hover {
+    color: #005bb5; /* Darker shade on hover */
+  }
+  
